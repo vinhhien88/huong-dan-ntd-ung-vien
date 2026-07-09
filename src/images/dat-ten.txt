@@ -1,0 +1,64 @@
+NTD — 03. Đăng tuyển (5 bước)
+ntd-dang-tuyen-buoc-01.png
+ntd-dang-tuyen-buoc-02.png
+ntd-dang-tuyen-buoc-03.png
+ntd-dang-tuyen-buoc-04.png
+ntd-dang-tuyen-buoc-05.png
+
+NTD — 04. Xem hồ sơ ứng tuyển (5 bước)
+ntd-xem-ho-so-buoc-01.png
+ntd-xem-ho-so-buoc-02.png
+ntd-xem-ho-so-buoc-03.png
+ntd-xem-ho-so-buoc-04.png
+ntd-xem-ho-so-buoc-05.png
+
+NTD — 05. Quản lý tài khoản (4 bước)
+ntd-quan-ly-tk-buoc-01.png
+ntd-quan-ly-tk-buoc-02.png
+ntd-quan-ly-tk-buoc-03.png
+ntd-quan-ly-tk-buoc-04.png
+
+UV — 01. Quản lý hồ sơ (4 bước)
+uv-quan-ly-ho-so-buoc-01.png
+uv-quan-ly-ho-so-buoc-02.png
+uv-quan-ly-ho-so-buoc-03.png
+uv-quan-ly-ho-so-buoc-04.png
+
+UV — 02. Chỉnh sửa hồ sơ (4 bước)
+uv-chinh-sua-ho-so-buoc-01.png
+uv-chinh-sua-ho-so-buoc-02.png
+uv-chinh-sua-ho-so-buoc-03.png
+uv-chinh-sua-ho-so-buoc-04.png
+
+UV — 03. Chọn mẫu CV (4 bước)
+uv-chon-mau-cv-buoc-01.png
+uv-chon-mau-cv-buoc-02.png
+uv-chon-mau-cv-buoc-03.png
+uv-chon-mau-cv-buoc-04.png
+
+UV — 04. Việc làm của tôi (4 bước)
+uv-viec-lam-cua-toi-buoc-01.png
+uv-viec-lam-cua-toi-buoc-02.png
+uv-viec-lam-cua-toi-buoc-03.png
+uv-viec-lam-cua-toi-buoc-04.png
+
+UV — 05. Thông báo việc làm (4 bước)
+uv-thong-bao-viec-lam-buoc-01.png
+uv-thong-bao-viec-lam-buoc-02.png
+uv-thong-bao-viec-lam-buoc-03.png
+uv-thong-bao-viec-lam-buoc-04.png
+
+UV — 06. NTD xem hồ sơ (4 bước)
+uv-ntd-xem-ho-so-buoc-01.png
+uv-ntd-xem-ho-so-buoc-02.png
+uv-ntd-xem-ho-so-buoc-03.png
+uv-ntd-xem-ho-so-buoc-04.png
+
+UV — 07. Đổi mật khẩu (5 bước)
+uv-doi-mat-khau-buoc-01.png
+uv-doi-mat-khau-buoc-02.png
+uv-doi-mat-khau-buoc-03.png
+uv-doi-mat-khau-buoc-04.png
+uv-doi-mat-khau-buoc-05.png
+
+
