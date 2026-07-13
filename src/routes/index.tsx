@@ -112,7 +112,6 @@ function Header({ onOpenSidebar }: { onOpenSidebar: () => void }) {
             { label: "Giới thiệu", href: "#group-intro" },
             { label: "Nhà tuyển dụng", href: "#group-employer" },
             { label: "Ứng viên", href: "#group-candidate" },
-            { label: "Thư viện", href: "#Thư viện" },
             { label: "Q&A", href: "#faq" },
           ].map((it) => (
             <a
@@ -190,28 +189,7 @@ function Hero() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 lg:grid-cols-1">
-            {[
-              { value: "02", label: "Nhóm người dùng", icon: UserRound },
-              { value: "12", label: "Quy trình hướng dẫn", icon: BookOpen },
-              { value: "Step", label: "By-step bằng hình ảnh", icon: ImageIcon },
-            ].map((s) => (
-              <div
-                key={s.label}
-                className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 shadow-soft"
-              >
-                <div className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-navy/5 text-navy">
-                  <s.icon className="h-5 w-5" />
-                </div>
-                <div className="min-w-0">
-                  <div className="text-2xl font-black tracking-tight text-foreground">
-                    {s.value}
-                  </div>
-                  <div className="text-sm text-muted-foreground">{s.label}</div>
-                </div>
-              </div>
-            ))}
-          </div>
+          {/* Stats cards ẩn */}
         </div>
       </div>
     </section>
