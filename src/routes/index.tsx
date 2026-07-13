@@ -140,10 +140,27 @@ function Header({ onOpenSidebar }: { onOpenSidebar: () => void }) {
 
 function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden border-b border-border bg-surface">
+    <section id="top" className="relative overflow-hidden border-b border-border">
+      {/* Hero background image */}
+      <img
+        src="/src/images/hero-banner.png"
+        alt=""
+        aria-hidden
+        className="absolute inset-0 h-full w-full object-cover object-center"
+      />
+      {/* Overlay để text dễ đọc */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 opacity-[0.35]"
+        className="absolute inset-0"
+        style={{
+          background:
+            "linear-gradient(to right, rgba(255,255,255,0.92) 0%, rgba(255,255,255,0.80) 50%, rgba(255,255,255,0.30) 100%)",
+        }}
+      />
+      {/* Gradient màu brand giữ phong cách cũ */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 opacity-[0.25]"
         style={{
           backgroundImage:
             "radial-gradient(circle at 20% 20%, color-mix(in oklab, var(--navy) 18%, transparent), transparent 45%), radial-gradient(circle at 80% 30%, color-mix(in oklab, var(--brand) 14%, transparent), transparent 50%)",
@@ -156,8 +173,9 @@ function Hero() {
               <Sparkles className="h-3.5 w-3.5" />
               Official Documentation · v1.0
             </Badge>
-            <h1 className="mt-5 text-4xl font-black tracking-tight text-foreground sm:text-5xl lg:text-6xl uppercase">
-              HƯỚNG DẪN CHO <span style={{ color: "#E8102E" }}>NHÀ TUYỂN DỤNG</span> VÀ<br /><span style={{ color: "#E8102E" }}>ỨNG VIÊN</span>
+            <h1 className="mt-5 text-3xl font-black tracking-tight text-foreground sm:text-4xl lg:text-5xl uppercase leading-snug">
+              HƯỚNG DẪN CHO<br />
+              <span style={{ color: "#E8102E" }}>NHÀ TUYỂN DỤNG</span> VÀ <span style={{ color: "#E8102E" }}>ỨNG VIÊN</span>
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
               Trung tâm hướng dẫn thao tác dành choNHÀ TUYỂN DỤNG VÀ ỨNG VIÊN trên nền tảng
@@ -167,13 +185,6 @@ function Hero() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <a
-                href="#start-here"
-                className="inline-flex items-center gap-2 rounded-lg bg-navy px-5 py-3 text-sm font-semibold text-navy-foreground shadow-elegant transition-transform hover:-translate-y-0.5"
-              >
-                Bắt đầu xem hướng dẫn
-                <ArrowRight className="h-4 w-4" />
-              </a>
               <a
                 href="#group-employer"
                 className="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-5 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-accent"
@@ -189,7 +200,8 @@ function Hero() {
             </div>
           </div>
 
-          {/* Stats cards ẩn */}
+          {/* Cột phải trống để ảnh background hiển thị */}
+          <div className="hidden lg:block" />
         </div>
       </div>
     </section>
@@ -307,7 +319,7 @@ function SidebarIndex({
       <div>
         <div className="flex items-center gap-2 px-2 pb-2">
           <div className="h-2 w-2 rounded-full bg-navy" />
-          <span className="text-xs font-bold uppercase tracking-wider text-foreground">
+          <span className="text-sm font-extrabold uppercase tracking-wider text-foreground" style={{ fontFamily: "'Montserrat', sans-serif" }}>
             Giới thiệu
           </span>
         </div>
@@ -321,7 +333,7 @@ function SidebarIndex({
       <div>
         <div className="flex items-center gap-2 px-2 pb-2">
           <div className="h-2 w-2 rounded-full bg-employer" />
-          <span className="text-xs font-bold uppercase tracking-wider text-foreground">
+          <span className="text-sm font-extrabold uppercase tracking-wider text-foreground" style={{ fontFamily: "'Montserrat', sans-serif" }}>
             Nhà tuyển dụng
           </span>
         </div>
@@ -335,7 +347,7 @@ function SidebarIndex({
       <div>
         <div className="flex items-center gap-2 px-2 pb-2">
           <div className="h-2 w-2 rounded-full bg-candidate" />
-          <span className="text-xs font-bold uppercase tracking-wider text-foreground">
+          <span className="text-sm font-extrabold uppercase tracking-wider text-foreground" style={{ fontFamily: "'Montserrat', sans-serif" }}>
             Ứng viên
           </span>
         </div>
@@ -1253,7 +1265,7 @@ function GuidelineHub() {
     <div className="min-h-screen bg-background text-foreground">
       <Header onOpenSidebar={() => setSidebarOpen(true)} />
       <Hero />
-      <QuickStart />
+      {/* <QuickStart /> */}
 
       <div className="mx-auto flex max-w-[1400px] gap-0 lg:gap-8 lg:px-8">
         <SidebarIndex
@@ -1357,9 +1369,9 @@ function GuidelineHub() {
         </main>
       </div>
 
-      <GallerySection />
+      {/* <GallerySection /> */}
       <FAQSection />
-      <VersionSection />
+      {/* <VersionSection /> */}
       <Footer />
 
       <Lightbox step={zoomStep} onClose={() => setZoomStep(null)} />
