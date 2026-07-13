@@ -117,11 +117,11 @@ export const MODULES: GuideModule[] = [
       "Đăng nhập và bắt đầu sử dụng.",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Truy cập trang đăng ký NTD", description: "Mở trang HR1Jobs và chọn khu vực dành cho Nhà tuyển dụng.", imageUrl: "/src/images/Nhà tuyển dụng/01. Đăng ký tài khoản/ntd-dang-ky-buoc-01.png" },
-      { title: "Nhập thông tin doanh nghiệp", description: "Điền tên công ty, mã số thuế, người phụ trách tuyển dụng.", imageUrl: "/src/images/Nhà tuyển dụng/01. Đăng ký tài khoản/ntd-dang-ky-buoc-02.png" },
-      { title: "Xác nhận email / số điện thoại", description: "Hệ thống có thể yêu cầu xác minh để bảo mật tài khoản.", imageUrl: "/src/images/Nhà tuyển dụng/01. Đăng ký tài khoản/ntd-dang-ky-buoc-03.png" },
-      { title: "Vào trang quản trị NTD", description: "Tài khoản được tạo và chuyển đến dashboard quản lý.", imageUrl: "/src/images/Nhà tuyển dụng/01. Đăng ký tài khoản/ntd-dang-ky-buoc-04.png" },
-      { title: "Đăng nhập và bắt đầu", description: "Đăng nhập lần đầu và khám phá các tính năng tuyển dụng.", imageUrl: "/src/images/Nhà tuyển dụng/01. Đăng ký tài khoản/ntd-dang-ky-buoc-05.png" },
+      { title: "Truy cập trang đăng ký NTD", description: "Mở trang HR1Jobs và chọn khu vực dành cho Nhà tuyển dụng.", imageUrl: "/images/nha-tuyen-dung/01-dang-ky-tai-khoan/ntd-dang-ky-buoc-01.png" },
+      { title: "Nhập thông tin doanh nghiệp", description: "Điền tên công ty, mã số thuế, người phụ trách tuyển dụng.", imageUrl: "/images/nha-tuyen-dung/01-dang-ky-tai-khoan/ntd-dang-ky-buoc-02.png" },
+      { title: "Xác nhận email / số điện thoại", description: "Hệ thống có thể yêu cầu xác minh để bảo mật tài khoản.", imageUrl: "/images/nha-tuyen-dung/01-dang-ky-tai-khoan/ntd-dang-ky-buoc-03.png" },
+      { title: "Vào trang quản trị NTD", description: "Tài khoản được tạo và chuyển đến dashboard quản lý.", imageUrl: "/images/nha-tuyen-dung/01-dang-ky-tai-khoan/ntd-dang-ky-buoc-04.png" },
+      { title: "Đăng nhập và bắt đầu", description: "Đăng nhập lần đầu và khám phá các tính năng tuyển dụng.", imageUrl: "/images/nha-tuyen-dung/01-dang-ky-tai-khoan/ntd-dang-ky-buoc-05.png" },
     ]),
     commonIssues: [
       { question: "Không nhận được email xác nhận?", answer: "Kiểm tra hộp Spam/Promotions hoặc liên hệ bộ phận hỗ trợ HR1Jobs." },
@@ -142,9 +142,9 @@ export const MODULES: GuideModule[] = [
       "Vào dashboard Nhà tuyển dụng.",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Mở trang đăng nhập NTD", description: "Vào HR1Jobs và chọn đăng nhập dành cho Nhà tuyển dụng.", imageUrl: "/src/images/Nhà tuyển dụng/02. Đăng nhập tài khoản/ntd-dang-nhap-buoc-01.png" },
-      { title: "Nhập thông tin và đăng nhập", description: "Điền email/SĐT đã đăng ký và mật khẩu, sau đó nhấn Đăng nhập.", imageUrl: "/src/images/Nhà tuyển dụng/02. Đăng nhập tài khoản/ntd-dang-nhap-buoc-02.png" },
-      { title: "Vào dashboard NTD", description: "Bắt đầu sử dụng các tính năng quản lý tuyển dụng.", imageUrl: "/src/images/Nhà tuyển dụng/02. Đăng nhập tài khoản/ntd-dang-nhap-buoc-04.png" },
+      { title: "Mở trang đăng nhập NTD", description: "Vào HR1Jobs và chọn đăng nhập dành cho Nhà tuyển dụng.", imageUrl: "/images/nha-tuyen-dung/02-dang-nhap-tai-khoan/ntd-dang-nhap-buoc-01.png" },
+      { title: "Nhập thông tin và đăng nhập", description: "Điền email/SĐT đã đăng ký và mật khẩu, sau đó nhấn Đăng nhập.", imageUrl: "/images/nha-tuyen-dung/02-dang-nhap-tai-khoan/ntd-dang-nhap-buoc-02.png" },
+      { title: "Vào dashboard NTD", description: "Bắt đầu sử dụng các tính năng quản lý tuyển dụng.", imageUrl: "/images/nha-tuyen-dung/02-dang-nhap-tai-khoan/ntd-dang-nhap-buoc-04.png" },
     ]),
     moduleNumber: "03",
     audience: "employer",
@@ -161,10 +161,10 @@ export const MODULES: GuideModule[] = [
       "Xác nhận thanh toán và kiểm tra trạng thái kích hoạt.",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Vào mục Dịch vụ", description: "Truy cập trang Dịch vụ từ menu dashboard Nhà tuyển dụng.", imageUrl: "/src/images/Nhà tuyển dụng/03. Mua và thanh toán dịch vụ/ntd-mua-dich-vu-buoc-01.png" },
-      { title: "So sánh và chọn gói", description: "Xem các gói tin đăng, gói tìm hồ sơ hoặc gói kết hợp phù hợp nhu cầu.", imageUrl: "/src/images/Nhà tuyển dụng/03. Mua và thanh toán dịch vụ/ntd-mua-dich-vu-buoc-02.png" },
-      { title: "Kiểm tra đơn hàng, ghi nhớ phương thức thanh toán và xác nhận đơn hàng", description: "Kiểm tra lại thông tin đơn hàng, chọn phương thức thanh toán phù hợp (chuyển khoản, thẻ, ví điện tử) và xác nhận.", imageUrl: "/src/images/Nhà tuyển dụng/03. Mua và thanh toán dịch vụ/ntd-mua-dich-vu-buoc-03.png" },
-      { title: "Xác nhận và kích hoạt", description: "Sau khi thanh toán thành công, dịch vụ được kích hoạt tự động trên tài khoản.", imageUrl: "/src/images/Nhà tuyển dụng/03. Mua và thanh toán dịch vụ/ntd-mua-dich-vu-buoc-04.png" },
+      { title: "Vào mục Dịch vụ", description: "Truy cập trang Dịch vụ từ menu dashboard Nhà tuyển dụng.", imageUrl: "/images/nha-tuyen-dung/03-mua-va-thanh-toan-dich-vu/ntd-mua-dich-vu-buoc-01.png" },
+      { title: "So sánh và chọn gói", description: "Xem các gói tin đăng, gói tìm hồ sơ hoặc gói kết hợp phù hợp nhu cầu.", imageUrl: "/images/nha-tuyen-dung/03-mua-va-thanh-toan-dich-vu/ntd-mua-dich-vu-buoc-02.png" },
+      { title: "Kiểm tra đơn hàng, ghi nhớ phương thức thanh toán và xác nhận đơn hàng", description: "Kiểm tra lại thông tin đơn hàng, chọn phương thức thanh toán phù hợp (chuyển khoản, thẻ, ví điện tử) và xác nhận.", imageUrl: "/images/nha-tuyen-dung/03-mua-va-thanh-toan-dich-vu/ntd-mua-dich-vu-buoc-03.png" },
+      { title: "Xác nhận và kích hoạt", description: "Sau khi thanh toán thành công, dịch vụ được kích hoạt tự động trên tài khoản.", imageUrl: "/images/nha-tuyen-dung/03-mua-va-thanh-toan-dich-vu/ntd-mua-dich-vu-buoc-04.png" },
     ]),
     note: "Liên hệ hotline (+84) 906 926 391 hoặc email info@hr1jobs.com nếu cần hỗ trợ về thanh toán hoặc hóa đơn.",
     commonIssues: [
@@ -185,9 +185,9 @@ export const MODULES: GuideModule[] = [
       "Kiểm tra nội dung và lưu (những thông tin có dấu sao đỏ bắt buộc phải điền).",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Vào khu vực quản lý đăng tuyển", description: "Chọn mục việc làm đang tuyển → Bước 1: Chọn mục việc làm đang tuyển → Bước 2: Nhấn Đăng tuyển.", imageUrl: "/src/images/Nhà tuyển dụng/04. Đăng tuyển/ntd-dang-tuyen-buoc-01.png" },
-      { title: "Nhập thông tin vị trí + JD", description: "Điền tên vị trí, mô tả công việc, yêu cầu, quyền lợi, địa điểm, mức lương. Không cần điền mã số đăng tuyển.", imageUrl: "/src/images/Nhà tuyển dụng/04. Đăng tuyển/ntd-dang-tuyen-buoc-02.png" },
-      { title: "Kiểm tra nội dung và lưu", description: "Kiểm tra lại toàn bộ nội dung. Các trường có dấu sao đỏ (*) bắt buộc phải điền đầy đủ trước khi lưu.", imageUrl: "/src/images/Nhà tuyển dụng/04. Đăng tuyển/ntd-dang-tuyen-buoc-05.png" },
+      { title: "Vào khu vực quản lý đăng tuyển", description: "Chọn mục việc làm đang tuyển → Bước 1: Chọn mục việc làm đang tuyển → Bước 2: Nhấn Đăng tuyển.", imageUrl: "/images/nha-tuyen-dung/04-dang-tuyen/ntd-dang-tuyen-buoc-01.png" },
+      { title: "Nhập thông tin vị trí + JD", description: "Điền tên vị trí, mô tả công việc, yêu cầu, quyền lợi, địa điểm, mức lương. Không cần điền mã số đăng tuyển.", imageUrl: "/images/nha-tuyen-dung/04-dang-tuyen/ntd-dang-tuyen-buoc-02.png" },
+      { title: "Kiểm tra nội dung và lưu", description: "Kiểm tra lại toàn bộ nội dung. Các trường có dấu sao đỏ (*) bắt buộc phải điền đầy đủ trước khi lưu.", imageUrl: "/images/nha-tuyen-dung/04-dang-tuyen/ntd-dang-tuyen-buoc-05.png" },
     ]),
     note: "Mô tả công việc rõ ràng giúp thu hút đúng ứng viên và tăng tỷ lệ ứng tuyển chất lượng.",
   },
@@ -205,10 +205,10 @@ export const MODULES: GuideModule[] = [
       "Lưu, tải hoặc chuyển trạng thái ứng viên nếu hệ thống hỗ trợ.",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Vào khu vực quản lý đăng tuyển", description: "Chọn mục việc làm đang tuyển — sẽ hiện ra danh sách các job đăng tuyển.", imageUrl: "/src/images/Nhà tuyển dụng/05. Xem hồ sơ ứng tuyển/ntd-xem-ho-so-buoc-01.png" },
-      { title: "Danh sách hồ sơ ứng tuyển", description: "Click chọn CV apply cần xem của từng job.", imageUrl: "/src/images/Nhà tuyển dụng/05. Xem hồ sơ ứng tuyển/ntd-xem-ho-so-buoc-03.png" },
-      { title: "Xem chi tiết từng CV để liên hệ", description: "Mở từng hồ sơ để xem thông tin chi tiết và liên hệ ứng viên.", imageUrl: "/src/images/Nhà tuyển dụng/05. Xem hồ sơ ứng tuyển/ntd-xem-ho-so-buoc-04.png" },
-      { title: "Chuyển trạng thái ứng viên", description: "Lưu, tải hoặc đánh dấu trạng thái phù hợp.", imageUrl: "/src/images/Nhà tuyển dụng/05. Xem hồ sơ ứng tuyển/ntd-xem-ho-so-buoc-05.png" },
+      { title: "Vào khu vực quản lý đăng tuyển", description: "Chọn mục việc làm đang tuyển — sẽ hiện ra danh sách các job đăng tuyển.", imageUrl: "/images/nha-tuyen-dung/05-xem-ho-so-ung-tuyen/ntd-xem-ho-so-buoc-01.png" },
+      { title: "Danh sách hồ sơ ứng tuyển", description: "Click chọn CV apply cần xem của từng job.", imageUrl: "/images/nha-tuyen-dung/05-xem-ho-so-ung-tuyen/ntd-xem-ho-so-buoc-03.png" },
+      { title: "Xem chi tiết từng CV để liên hệ", description: "Mở từng hồ sơ để xem thông tin chi tiết và liên hệ ứng viên.", imageUrl: "/images/nha-tuyen-dung/05-xem-ho-so-ung-tuyen/ntd-xem-ho-so-buoc-04.png" },
+      { title: "Chuyển trạng thái ứng viên", description: "Lưu, tải hoặc đánh dấu trạng thái phù hợp.", imageUrl: "/images/nha-tuyen-dung/05-xem-ho-so-ung-tuyen/ntd-xem-ho-so-buoc-05.png" },
     ]),
   },
   {
@@ -225,9 +225,9 @@ export const MODULES: GuideModule[] = [
       "Lưu thay đổi.",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Vào hồ sơ doanh nghiệp", description: "Truy cập khu vực thông tin tài khoản NTD.", imageUrl: "/src/images/Nhà tuyển dụng/06. Quản lý tài khoản/ntd-quan-ly-tk-buoc-01.png" },
-      { title: "Cập nhật thông tin công ty và người liên hệ", description: "Tên, lĩnh vực, quy mô, địa chỉ, logo, thông tin người phụ trách.", imageUrl: "/src/images/Nhà tuyển dụng/06. Quản lý tài khoản/ntd-quan-ly-tk-buoc-02.png" },
-      { title: "Lưu thay đổi", description: "Xác nhận và lưu lại thông tin đã cập nhật.", imageUrl: "/src/images/Nhà tuyển dụng/06. Quản lý tài khoản/ntd-quan-ly-tk-buoc-03.png" },
+      { title: "Vào hồ sơ doanh nghiệp", description: "Truy cập khu vực thông tin tài khoản NTD.", imageUrl: "/images/nha-tuyen-dung/06-quan-ly-tai-khoan/ntd-quan-ly-tk-buoc-01.png" },
+      { title: "Cập nhật thông tin công ty và người liên hệ", description: "Tên, lĩnh vực, quy mô, địa chỉ, logo, thông tin người phụ trách.", imageUrl: "/images/nha-tuyen-dung/06-quan-ly-tai-khoan/ntd-quan-ly-tk-buoc-02.png" },
+      { title: "Lưu thay đổi", description: "Xác nhận và lưu lại thông tin đã cập nhật.", imageUrl: "/images/nha-tuyen-dung/06-quan-ly-tai-khoan/ntd-quan-ly-tk-buoc-03.png" },
     ]),
   },
   {
@@ -246,10 +246,10 @@ export const MODULES: GuideModule[] = [
       "Hoàn tất đăng ký và bắt đầu tạo hồ sơ.",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Truy cập trang đăng ký", description: "Mở HR1Jobs và chọn khu vực dành cho Ứng viên, sau đó chọn Đăng ký.", imageUrl: "/src/images/Ứng viên/01. Đăng ký tài khoản/uv-dang-ky-buoc-01.png" },
-      { title: "Nhập thông tin cá nhân", description: "Điền đầy đủ họ tên, địa chỉ email và số điện thoại.", imageUrl: "/src/images/Ứng viên/01. Đăng ký tài khoản/uv-dang-ky-buoc-02 .png" },
-      { title: "Tạo mật khẩu", description: "Đặt mật khẩu mạnh và nhập lại để xác nhận.", imageUrl: "/src/images/Ứng viên/01. Đăng ký tài khoản/uv-dang-ky-buoc-03.png" },
-      { title: "Hoàn tất và bắt đầu", description: "Đăng nhập và bắt đầu xây dựng hồ sơ cá nhân.", imageUrl: "/src/images/Ứng viên/01. Đăng ký tài khoản/uv-dang-ky-buoc-04.png" },
+      { title: "Truy cập trang đăng ký", description: "Mở HR1Jobs và chọn khu vực dành cho Ứng viên, sau đó chọn Đăng ký.", imageUrl: "/images/ung-vien/01-dang-ky-tai-khoan/uv-dang-ky-buoc-01.png" },
+      { title: "Nhập thông tin cá nhân", description: "Điền đầy đủ họ tên, địa chỉ email và số điện thoại.", imageUrl: "/images/ung-vien/01-dang-ky-tai-khoan/uv-dang-ky-buoc-02.png" },
+      { title: "Tạo mật khẩu", description: "Đặt mật khẩu mạnh và nhập lại để xác nhận.", imageUrl: "/images/ung-vien/01-dang-ky-tai-khoan/uv-dang-ky-buoc-03.png" },
+      { title: "Hoàn tất và bắt đầu", description: "Đăng nhập và bắt đầu xây dựng hồ sơ cá nhân.", imageUrl: "/images/ung-vien/01-dang-ky-tai-khoan/uv-dang-ky-buoc-04.png" },
     ]),
     note: "Sử dụng email cá nhân thường dùng để không bỏ lỡ thông báo từ nhà tuyển dụng.",
     commonIssues: [
@@ -271,9 +271,9 @@ export const MODULES: GuideModule[] = [
       "Vào trang cá nhân.",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Mở trang đăng nhập", description: "Vào HR1Jobs và chọn Đăng nhập dành cho Ứng viên.", imageUrl: "/src/images/Ứng viên/02. Đăng nhập tài khoản/uv-dang-nhap-buoc-01.png" },
-      { title: "Nhập thông tin và đăng nhập", description: "Điền email/SĐT đã đăng ký và mật khẩu, nhấn Đăng nhập.", imageUrl: "/src/images/Ứng viên/02. Đăng nhập tài khoản/uv-dang-nhap-buoc-02.png" },
-      { title: "Vào trang cá nhân", description: "Bắt đầu sử dụng các tính năng tìm việc và quản lý hồ sơ.", imageUrl: "/src/images/Ứng viên/02. Đăng nhập tài khoản/uv-dang-nhap-buoc-03.png" },
+      { title: "Mở trang đăng nhập", description: "Vào HR1Jobs và chọn Đăng nhập dành cho Ứng viên.", imageUrl: "/images/ung-vien/02-dang-nhap-tai-khoan/uv-dang-nhap-buoc-01.png" },
+      { title: "Nhập thông tin và đăng nhập", description: "Điền email/SĐT đã đăng ký và mật khẩu, nhấn Đăng nhập.", imageUrl: "/images/ung-vien/02-dang-nhap-tai-khoan/uv-dang-nhap-buoc-02.png" },
+      { title: "Vào trang cá nhân", description: "Bắt đầu sử dụng các tính năng tìm việc và quản lý hồ sơ.", imageUrl: "/images/ung-vien/02-dang-nhap-tai-khoan/uv-dang-nhap-buoc-03.png" },
     ]),
     commonIssues: [
       { question: "Quên mật khẩu?", answer: "Chọn 'Quên mật khẩu' trên trang đăng nhập, nhập email và làm theo hướng dẫn đặt lại mật khẩu." },
@@ -295,10 +295,10 @@ export const MODULES: GuideModule[] = [
       "Lưu thay đổi và kiểm tra lại hiển thị hồ sơ.",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Vào hồ sơ cá nhân", description: "Truy cập khu vực hồ sơ trong tài khoản.", imageUrl: "/src/images/Ứng viên/04. Chỉnh sửa hồ sơ/uv-chinh-sua-ho-so-buoc-01.png" },
-      { title: "Chọn chỉnh sửa", description: "Mở chế độ chỉnh sửa cho từng phần thông tin.", imageUrl: "/src/images/Ứng viên/04. Chỉnh sửa hồ sơ/uv-chinh-sua-ho-so-buoc-02.png.png" },
-      { title: "Cập nhật thông tin", description: "Chỉnh sửa kinh nghiệm, học vấn, kỹ năng…", imageUrl: "/src/images/Ứng viên/04. Chỉnh sửa hồ sơ/uv-chinh-sua-ho-so-buoc-03.png.png" },
-      { title: "Lưu và kiểm tra hiển thị", description: "Xem lại hồ sơ sau khi cập nhật để đảm bảo chính xác.", imageUrl: "/src/images/Ứng viên/04. Chỉnh sửa hồ sơ/uv-chinh-sua-ho-so-buoc-04.png" },
+      { title: "Vào hồ sơ cá nhân", description: "Truy cập khu vực hồ sơ trong tài khoản.", imageUrl: "/images/ung-vien/04-chinh-sua-ho-so/uv-chinh-sua-ho-so-buoc-01.png" },
+      { title: "Chọn chỉnh sửa", description: "Mở chế độ chỉnh sửa cho từng phần thông tin.", imageUrl: "/images/ung-vien/04-chinh-sua-ho-so/uv-chinh-sua-ho-so-buoc-02.png" },
+      { title: "Cập nhật thông tin", description: "Chỉnh sửa kinh nghiệm, học vấn, kỹ năng…", imageUrl: "/images/ung-vien/04-chinh-sua-ho-so/uv-chinh-sua-ho-so-buoc-03.png" },
+      { title: "Lưu và kiểm tra hiển thị", description: "Xem lại hồ sơ sau khi cập nhật để đảm bảo chính xác.", imageUrl: "/images/ung-vien/04-chinh-sua-ho-so/uv-chinh-sua-ho-so-buoc-04.png" },
     ]),
   },
   {
@@ -316,10 +316,10 @@ export const MODULES: GuideModule[] = [
       "Cập nhật các thông tin còn thiếu nếu có.",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Đăng nhập Ứng viên", description: "Vào HR1Jobs và đăng nhập bằng tài khoản ứng viên.", imageUrl: "/src/images/Ứng viên/03. Quản lý hồ sơ/uv-quan-ly-ho-so-buoc-01.png" },
-      { title: "Mở Quản lý hồ sơ", description: "Truy cập khu vực quản lý hồ sơ cá nhân.", imageUrl: "/src/images/Ứng viên/03. Quản lý hồ sơ/uv-quan-ly-ho-so-buoc-02.png" },
-      { title: "Kiểm tra trạng thái hồ sơ", description: "Xem mức độ hoàn thiện và các mục còn thiếu.", imageUrl: "/src/images/Ứng viên/03. Quản lý hồ sơ/uv-quan-ly-ho-so-buoc-03.png" },
-      { title: "Cập nhật thông tin còn thiếu", description: "Bổ sung các thông tin cần thiết để hồ sơ đầy đủ hơn.", imageUrl: "/src/images/Ứng viên/03. Quản lý hồ sơ/uv-quan-ly-ho-so-buoc-04.png" },
+      { title: "Đăng nhập Ứng viên", description: "Vào HR1Jobs và đăng nhập bằng tài khoản ứng viên.", imageUrl: "/images/ung-vien/03-quan-ly-ho-so/uv-quan-ly-ho-so-buoc-01.png" },
+      { title: "Mở Quản lý hồ sơ", description: "Truy cập khu vực quản lý hồ sơ cá nhân.", imageUrl: "/images/ung-vien/03-quan-ly-ho-so/uv-quan-ly-ho-so-buoc-02.png" },
+      { title: "Kiểm tra trạng thái hồ sơ", description: "Xem mức độ hoàn thiện và các mục còn thiếu.", imageUrl: "/images/ung-vien/03-quan-ly-ho-so/uv-quan-ly-ho-so-buoc-03.png" },
+      { title: "Cập nhật thông tin còn thiếu", description: "Bổ sung các thông tin cần thiết để hồ sơ đầy đủ hơn.", imageUrl: "/images/ung-vien/03-quan-ly-ho-so/uv-quan-ly-ho-so-buoc-04.png" },
     ]),
   },
   {
@@ -337,10 +337,10 @@ export const MODULES: GuideModule[] = [
       "Áp dụng mẫu CV cho hồ sơ.",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Mở mục mẫu CV", description: "Truy cập khu vực thư viện mẫu CV.", imageUrl: "/src/images/Ứng viên/05. Chọn mẫu CV/uv-chon-mau-cv-buoc-01.png" },
-      { title: "Xem danh sách mẫu", description: "Lướt qua các mẫu CV có sẵn trên hệ thống.", imageUrl: "/src/images/Ứng viên/05. Chọn mẫu CV/uv-chon-mau-cv-buoc-02.png" },
-      { title: "Chọn mẫu phù hợp", description: "Chọn mẫu phù hợp với ngành nghề/cấp bậc.", imageUrl: "/src/images/Ứng viên/05. Chọn mẫu CV/uv-chon-mau-cv-buoc-03.png" },
-      { title: "Áp dụng cho hồ sơ", description: "Lưu lựa chọn để mẫu được áp dụng vào CV.", imageUrl: "/src/images/Ứng viên/05. Chọn mẫu CV/uv-chon-mau-cv-buoc-04.png" },
+      { title: "Mở mục mẫu CV", description: "Truy cập khu vực thư viện mẫu CV.", imageUrl: "/images/ung-vien/05-chon-mau-cv/uv-chon-mau-cv-buoc-01.png" },
+      { title: "Xem danh sách mẫu", description: "Lướt qua các mẫu CV có sẵn trên hệ thống.", imageUrl: "/images/ung-vien/05-chon-mau-cv/uv-chon-mau-cv-buoc-02.png" },
+      { title: "Chọn mẫu phù hợp", description: "Chọn mẫu phù hợp với ngành nghề/cấp bậc.", imageUrl: "/images/ung-vien/05-chon-mau-cv/uv-chon-mau-cv-buoc-03.png" },
+      { title: "Áp dụng cho hồ sơ", description: "Lưu lựa chọn để mẫu được áp dụng vào CV.", imageUrl: "/images/ung-vien/05-chon-mau-cv/uv-chon-mau-cv-buoc-04.png" },
     ]),
   },
   {
@@ -358,10 +358,10 @@ export const MODULES: GuideModule[] = [
       "Tiếp tục ứng tuyển hoặc cập nhật hồ sơ nếu cần.",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Vào Việc làm của tôi", description: "Truy cập khu vực quản lý công việc cá nhân.", imageUrl: "/src/images/Ứng viên/06. Việc làm của tôi/uv-viec-lam-cua-toi-buoc-01.png" },
-      { title: "Danh sách việc đã lưu/ứng tuyển", description: "Xem tất cả công việc đang theo dõi.", imageUrl: "/src/images/Ứng viên/06. Việc làm của tôi/uv-viec-lam-cua-toi-buoc-02.png" },
-      { title: "Trạng thái từng công việc", description: "Kiểm tra trạng thái: đã nộp, đang xem xét…", imageUrl: "/src/images/Ứng viên/06. Việc làm của tôi/uv-viec-lam-cua-toi-buoc-03.png" },
-      { title: "Tiếp tục thao tác", description: "Ứng tuyển tiếp hoặc cập nhật hồ sơ nếu cần.", imageUrl: "/src/images/Ứng viên/06. Việc làm của tôi/uv-viec-lam-cua-toi-buoc-04.png" },
+      { title: "Vào Việc làm của tôi", description: "Truy cập khu vực quản lý công việc cá nhân.", imageUrl: "/images/ung-vien/06-viec-lam-cua-toi/uv-viec-lam-cua-toi-buoc-01.png" },
+      { title: "Danh sách việc đã lưu/ứng tuyển", description: "Xem tất cả công việc đang theo dõi.", imageUrl: "/images/ung-vien/06-viec-lam-cua-toi/uv-viec-lam-cua-toi-buoc-02.png" },
+      { title: "Trạng thái từng công việc", description: "Kiểm tra trạng thái: đã nộp, đang xem xét…", imageUrl: "/images/ung-vien/06-viec-lam-cua-toi/uv-viec-lam-cua-toi-buoc-03.png" },
+      { title: "Tiếp tục thao tác", description: "Ứng tuyển tiếp hoặc cập nhật hồ sơ nếu cần.", imageUrl: "/images/ung-vien/06-viec-lam-cua-toi/uv-viec-lam-cua-toi-buoc-04.png" },
     ]),
   },
   {
@@ -379,10 +379,10 @@ export const MODULES: GuideModule[] = [
       "Lưu thiết lập.",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Vào Thông báo việc làm", description: "Truy cập khu vực thiết lập job alert.", imageUrl: "/src/images/Ứng viên/07. Thông báo việc làm/uv-thong-bao-viec-lam-buoc-01.png" },
-      { title: "Chọn tiêu chí", description: "Ngành nghề, địa điểm, cấp bậc, mức lương mong muốn.", imageUrl: "/src/images/Ứng viên/07. Thông báo việc làm/uv-thong-bao-viec-lam-buoc-02.png" },
-      { title: "Bật/tắt thông báo", description: "Tùy chọn nhận thông báo qua email/hệ thống.", imageUrl: "/src/images/Ứng viên/07. Thông báo việc làm/uv-thong-bao-viec-lam-buoc-03.png" },
-      { title: "Lưu thiết lập", description: "Xác nhận để hệ thống bắt đầu gửi gợi ý phù hợp.", imageUrl: "/src/images/Ứng viên/07. Thông báo việc làm/uv-thong-bao-viec-lam-buoc-04.png" },
+      { title: "Vào Thông báo việc làm", description: "Truy cập khu vực thiết lập job alert.", imageUrl: "/images/ung-vien/07-thong-bao-viec-lam/uv-thong-bao-viec-lam-buoc-01.png" },
+      { title: "Chọn tiêu chí", description: "Ngành nghề, địa điểm, cấp bậc, mức lương mong muốn.", imageUrl: "/images/ung-vien/07-thong-bao-viec-lam/uv-thong-bao-viec-lam-buoc-02.png" },
+      { title: "Bật/tắt thông báo", description: "Tùy chọn nhận thông báo qua email/hệ thống.", imageUrl: "/images/ung-vien/07-thong-bao-viec-lam/uv-thong-bao-viec-lam-buoc-03.png" },
+      { title: "Lưu thiết lập", description: "Xác nhận để hệ thống bắt đầu gửi gợi ý phù hợp.", imageUrl: "/images/ung-vien/07-thong-bao-viec-lam/uv-thong-bao-viec-lam-buoc-04.png" },
     ]),
   },
   {
@@ -400,10 +400,10 @@ export const MODULES: GuideModule[] = [
       "Lưu thay đổi.",
     ],
     imageSteps: stepsFromChecklist([
-      { title: "Vào cài đặt hồ sơ", description: "Truy cập khu vực thiết lập quyền hiển thị.", imageUrl: "/src/images/Ứng viên/08. NTD xem hồ sơ/uv-ntd-xem-ho-so-buoc-01.png" },
-      { title: "Kiểm tra trạng thái hiển thị", description: "Xem hồ sơ đang ở chế độ công khai hay riêng tư.", imageUrl: "/src/images/Ứng viên/08. NTD xem hồ sơ/uv-ntd-xem-ho-so-buoc-02.png" },
-      { title: "Bật/tắt quyền NTD xem", description: "Chọn trạng thái phù hợp với nhu cầu tìm việc.", imageUrl: "/src/images/Ứng viên/08. NTD xem hồ sơ/uv-ntd-xem-ho-so-buoc-03.png" },
-      { title: "Lưu thay đổi", description: "Xác nhận thiết lập mới.", imageUrl: "/src/images/Ứng viên/08. NTD xem hồ sơ/uv-ntd-xem-ho-so-buoc-04.png" },
+      { title: "Vào cài đặt hồ sơ", description: "Truy cập khu vực thiết lập quyền hiển thị.", imageUrl: "/images/ung-vien/08-ntd-xem-ho-so/uv-ntd-xem-ho-so-buoc-01.png" },
+      { title: "Kiểm tra trạng thái hiển thị", description: "Xem hồ sơ đang ở chế độ công khai hay riêng tư.", imageUrl: "/images/ung-vien/08-ntd-xem-ho-so/uv-ntd-xem-ho-so-buoc-02.png" },
+      { title: "Bật/tắt quyền NTD xem", description: "Chọn trạng thái phù hợp với nhu cầu tìm việc.", imageUrl: "/images/ung-vien/08-ntd-xem-ho-so/uv-ntd-xem-ho-so-buoc-03.png" },
+      { title: "Lưu thay đổi", description: "Xác nhận thiết lập mới.", imageUrl: "/images/ung-vien/08-ntd-xem-ho-so/uv-ntd-xem-ho-so-buoc-04.png" },
     ]),
   },
   {

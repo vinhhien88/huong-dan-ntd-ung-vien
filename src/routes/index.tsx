@@ -143,7 +143,7 @@ function Hero() {
     <section id="top" className="relative overflow-hidden border-b border-border">
       {/* Hero background image */}
       <img
-        src="/src/images/hero-banner.png"
+        src="/images/hero-banner.png"
         alt=""
         aria-hidden
         className="absolute inset-0 h-full w-full object-cover object-center"
